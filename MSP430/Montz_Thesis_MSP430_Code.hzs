@@ -1,0 +1,78 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints/>
+ <EEMRegistersWindow>
+  <EEMRegisters moduleClockControl="40f" generalClockControl="2e" />
+ </EEMRegistersWindow>
+ <EEMStateStorageWindow>
+  <EEMStateStorage control="2" />
+ </EEMStateStorageWindow>
+ <EEMTriggerSequencerWindow>
+  <EEMTriggers seqnxtstate0="0" seqnxtstate1="0" seq_ctl="0" seqaction="" />
+ </EEMTriggerSequencerWindow>
+ <EEMTriggersWindow/>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow addressText="" bufferWidth="-1" bufferHeight="-1" addressSpace="" />
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="&amp;TA1IV" numColumns="8" sizeText="sizeof(TA1IV)" dataSize="1" radix="16" name="Montz_Thesis_MSP430_Code" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Montz_Thesis_MSP430_Code" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Montz_Thesis_MSP430_Code" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Montz_Thesis_MSP430_Code" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="Montz_Thesis_MSP430_Code" name="unnamed" />
+  <ProjectSessionItem path="Montz_Thesis_MSP430_Code;Montz_Thesis_MSP430_Code" name="unnamed" />
+  <ProjectSessionItem path="Montz_Thesis_MSP430_Code;Montz_Thesis_MSP430_Code;Source Files" name="unnamed" />
+  <ProjectSessionItem path="Montz_Thesis_MSP430_Code;Montz_Thesis_MSP430_Code;System Files" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="UCSI_A3_UART/UCA3IFG;CRC" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="UCSI_A3_UART/UCA3CTLW0;UCSI_A3_UART/UCA3CTL0;UCSI_A3_UART/UCA3CTL1;UCSI_A3_UART/UCA3BRW;UCSI_A3_UART/UCA3BR0;UCSI_A3_UART/UCA3BR1;UCSI_A3_UART/UCA3MCTL;UCSI_A3_UART/UCA3STAT;UCSI_A3_UART/UCA3RXBUF;UCSI_A3_UART/UCA3TXBUF;UCSI_A3_UART/UCA3ABCTL;UCSI_A3_UART/UCA3IRCTL;UCSI_A3_UART/UCA3IRTCTL;UCSI_A3_UART/UCA3IRRCTL;UCSI_A3_UART/UCA3ICTL;UCSI_A3_UART/UCA3IE;UCSI_A3_UART/UCA3IFG;UCSI_A3_UART/UCA3IV;CRC/CRCDI;CRC/CRCDIRB;CRC/CRCINIRES;CRC/CRCRESR" name="Montz_Thesis_MSP430_Code" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="CPU Registers" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU Registers/PC;CPU Registers/SP;CPU Registers/SR;CPU Registers/R4;CPU Registers/R5;CPU Registers/R6;CPU Registers/R7;CPU Registers/R8;CPU Registers/R9;CPU Registers/R10;CPU Registers/R11;CPU Registers/R12;CPU Registers/R13;CPU Registers/R14;CPU Registers/R15" name="Montz_Thesis_MSP430_Code" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="CPU Registers" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU Registers/PC;CPU Registers/SP;CPU Registers/SR;CPU Registers/R4;CPU Registers/R5;CPU Registers/R6;CPU Registers/R7;CPU Registers/R8;CPU Registers/R9;CPU Registers/R10;CPU Registers/R11;CPU Registers/R12;CPU Registers/R13;CPU Registers/R14;CPU Registers/R15" name="Montz_Thesis_MSP430_Code" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="CPU Registers" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU Registers/PC;CPU Registers/SP;CPU Registers/SR;CPU Registers/R4;CPU Registers/R5;CPU Registers/R6;CPU Registers/R7;CPU Registers/R8;CPU Registers/R9;CPU Registers/R10;CPU Registers/R11;CPU Registers/R12;CPU Registers/R13;CPU Registers/R14;CPU Registers/R15" name="Montz_Thesis_MSP430_Code" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never" >
+   <Watchpoint linenumber="39" radix="10" name="Timer_Counter_Limit" expression="Timer_Counter_Limit" filename="G:/THESIS/MSP430/Montz_Thesis_Header.h" />
+   <Watchpoint linenumber="4" radix="-1" name="System_Status" expression="System_Status" filename="G:/THESIS/MSP430/main.c" />
+   <Watchpoint evalMode="2" linenumber="280" numelements="8" evalType="0" radix="-1" name="UART_PC_TX_header" expression="UART_PC_TX_header" filename="G:/THESIS/MSP430/main.c" />
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="5" debugPath="G:/THESIS/MSP430/main.c" y="290" path="G:/THESIS/MSP430/main.c" left="0" selected="1" name="unnamed" top="282" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="C:/Users/Ben/AppData/Local/Rowley Associates Limited/CrossWorks for MSP430/v3/packages/include/msp430f5438a.h" y="4119" path="C:/Users/Ben/AppData/Local/Rowley Associates Limited/CrossWorks for MSP430/v3/packages/include/msp430f5438a.h" left="0" selected="0" name="unnamed" top="4096" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="G:/THESIS/MSP430/IncrementVcore.c" y="95" path="G:/THESIS/MSP430/IncrementVcore.c" left="0" selected="0" name="unnamed" top="75" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="C:/Users/Ben/AppData/Local/Rowley Associates Limited/CrossWorks for MSP430/v3/packages/include/msp430.h" y="0" path="C:/Users/Ben/AppData/Local/Rowley Associates Limited/CrossWorks for MSP430/v3/packages/include/msp430.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="G:/THESIS/MSP430/Montz_Thesis_Header.h" y="53" path="G:/THESIS/MSP430/Montz_Thesis_Header.h" left="0" selected="0" name="unnamed" top="24" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="c:/program files (x86)/rowley associates limited/crossworks for msp430 3.0/src/crt0.asm" y="83" path="C:/program files (x86)/rowley associates limited/crossworks for msp430 3.0/src/crt0.asm" left="0" selected="0" name="unnamed" top="62" />
+ </Files>
+ <MSP430CrossStudioWindow activeProject="Montz_Thesis_MSP430_Code" autoConnectTarget="MSP-FET430UIF(V3)" debugSearchFileMap="" fileDialogInitialDirectory="G:/THESIS/MSP430" fileDialogDefaultFilter="*.c" autoConnectCapabilities="528255" debugSearchPath="" buildConfiguration="MSP430 Debug" />
+</session>

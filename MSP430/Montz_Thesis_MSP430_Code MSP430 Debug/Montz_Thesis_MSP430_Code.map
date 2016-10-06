@@ -1,0 +1,65 @@
+
+SYMBOLS BY NAME
+
+    1c06 IDATA0     _ImageSpacingDelay  
+    643e CODE       _IncrementVcore     
+    1c02 IDATA0     _System_Status      
+    5c28 ISR        _TimerA1_isr        
+    1c00 IDATA0     _Timer_Counter_Limit
+    1c1e UDATA0     _UART_PC_RX_char    
+    1c16 UDATA0     _UART_PC_RX_header  
+    639e CODE       _UART_PC_SEND_ACK   
+    63ee CODE       _UART_PC_SEND_STATUS_UPDATE
+    1c0e UDATA0     _UART_PC_TX_header  
+    1c08 IDATA0     _UART_PC_char_received
+    5c00 ISR        _USCI_A3_isr        
+    1c00            ___RAM_Address      
+    4000            ___RAM_Size         
+    1c00            ___begin_IDATA0     
+       0            ___begin_THREAD     
+    1c0c            ___begin_UDATA0     
+     4c0            ___crt_mpy          
+     4c8            ___crt_op2          
+     4ca            ___crt_reslo        
+    1c0c            ___end_IDATA0       
+       0            ___end_THREAD       
+    1c1f            ___end_UDATA0       
+    64e0 CODE       ___int16_mul        
+    612a CODE       _main               
+    64f6 CODE       _memcpy             
+    6506 CODE       _memset             
+    1c04 IDATA0     _sendStatusUpdates  
+    1c0c UDATA0     _transmit_UART_PC   
+
+
+SYMBOLS BY VALUE
+
+       0            ___begin_THREAD     
+       0            ___end_THREAD       
+     4c0            ___crt_mpy          
+     4c8            ___crt_op2          
+     4ca            ___crt_reslo        
+    1c00            ___RAM_Address      
+    1c00            ___begin_IDATA0     
+    1c00 IDATA0     _Timer_Counter_Limit
+    1c02 IDATA0     _System_Status      
+    1c04 IDATA0     _sendStatusUpdates  
+    1c06 IDATA0     _ImageSpacingDelay  
+    1c08 IDATA0     _UART_PC_char_received
+    1c0c            ___begin_UDATA0     
+    1c0c            ___end_IDATA0       
+    1c0c UDATA0     _transmit_UART_PC   
+    1c0e UDATA0     _UART_PC_TX_header  
+    1c16 UDATA0     _UART_PC_RX_header  
+    1c1e UDATA0     _UART_PC_RX_char    
+    1c1f            ___end_UDATA0       
+    4000            ___RAM_Size         
+    5c00 ISR        _USCI_A3_isr        
+    5c28 ISR        _TimerA1_isr        
+    612a CODE       _main               
+    639e CODE       _UART_PC_SEND_ACK   
+    63ee CODE       _UART_PC_SEND_STATUS_UPDATE
+    643e CODE       _IncrementVcore     
+    64e0 CODE       ___int16_mul        
+    64f6 CODE       _memcpy             
+    6506 CODE       _memset             
